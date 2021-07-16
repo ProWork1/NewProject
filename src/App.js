@@ -28,9 +28,9 @@ function App() {
                     <Route path='/students' component={StudentsScreen} exact />
                     <Route path='/news' component={NewsScreen} exact />
                     <Route path='/contact' component={ContactScreen} exact />
-                    <Route path='/rfcscreen' component={RFCScreen} exact />
+                    {/* <Route path='/rfcscreen' component={RFCScreen} exact />
                     <Route path='/universityname' component={UniversityNameScreen} exact />
-                    <Route path='/article' component={ArticleScreen} exact />
+                    <Route path='/article' component={ArticleScreen} exact /> */}
                 </div>
                 <div>
                     <FooterComponent />
