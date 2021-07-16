@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom'
 }
 
 const Navbar = () => {
-    return <div>Hello World</div>
+    return <div></div>
 }
 
 export default Navbar
