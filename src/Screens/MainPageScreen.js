@@ -1,5 +1,6 @@
 import React from 'react'
 import AccordionComponent from "../Components/AccordionComponent";
+import CitySlideComponent from "../Components/CitySlideComponent";
 import {Container, Row, Col} from 'react-bootstrap';
 
 const MainPageScreen = () => {
@@ -13,6 +14,8 @@ const MainPageScreen = () => {
                     </Col>
                 ))}
                 </Row>
+            {/*country carousel*/}
+            <CitySlideComponent/>
             </Container>
         </div>
     )

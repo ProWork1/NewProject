@@ -1,14 +1,12 @@
 .accordion{
     position: relative;
 }
-
 .accordion__header {
     background: #FFF !important;
     border-bottom: none !important;
     border-radius: 20px !important;
 
 }
-
 .accordion__parent {
     margin-bottom: 20px;
     padding: 0.8rem;
@@ -45,7 +43,6 @@
     top: 30px;
     right:-20px;
 }
-
 .accordion__btn-inner {
     width: 38px;
     height: 38px;
