@@ -1,0 +1,7 @@
+body {
+    width: 100%;
+}
+.back_image{
+    background-image: url("./Group2.png");
+    width: 100% !important;
+}

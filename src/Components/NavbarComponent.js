@@ -36,15 +36,20 @@ const menus = [
 const NavbarComponent = () => {
 
     const [count,setcount] = useState(false)
+    const [col,setcol] = useState(false)
     const buttonClick = () => {
         setcount(!count);
+    }
+    const handleClick = () => {
+      setcol(!col)
+      
     }
     let location = useLocation();
 
     return <div>
-        <div className="container ">
+      <div className="container ">
         <div className="row w-100 px-lg-5">
-          <div className="col-lg col-md col-sm d-flex align-items-center">
+          <div className="col-lg col-md col-sm d-flex align-items-center navbar">
             <div className="navbar_logo d-flex align-items-center order-2 order-lg-1 ">
               <img src="./images/logo.png" alt="" />
             </div>
@@ -53,7 +58,7 @@ const NavbarComponent = () => {
               <i className="fab fa-facebook-f"></i>
               <i className="fab fa-youtube"></i>
             </div>
-            <ul className="nav mt-2 mx-4 order-3">
+            <ul className="nav mt-2 mx-2 order-3">
               {menus.map(({ title, id }) => (
                 <li
                   className={
@@ -67,15 +72,19 @@ const NavbarComponent = () => {
                     {title}
                   </Link>
                   <div className="navbar_line">
-                    <img src="./images/line.png" alt="" />
+                    <img className = "d-none" src="./images/line.png" alt="" />
                   </div>
                 </li>
               ))}
             </ul>
             <div className="ml-auto d-flex order-4">
               <div className="navbar_language d-none d-lg-flex mt-2">
-                <p>РУС</p>
-                <p>UZ</p>
+                <p className={col ? "russian" : "defalut"} onClick = {handleClick} >
+                  РУС
+                </p>
+                <p className={col ? "defalut" : "russian"} onClick = {handleClick} >
+                  UZ
+                </p>
               </div>
               <div className="navbar_message d-none d-lg-flex ml-auto">
                 <div className="cricle">
@@ -84,19 +93,25 @@ const NavbarComponent = () => {
                 <p>Оставить заявку</p>
               </div>
             </div>
-            <div className={count ? "navbar_menu d-lg-none order-3 mx-5" : "navbar_x d-lg-none order-3 mx-5"} onClick = {buttonClick}>
-              <img src="./images/menu.png" alt="" />
-            </div>
-            <div className={count ? "navbar_x d-lg-none order-3 mx-5" : "navbar_menu d-lg-none order-3 mx-5"} onClick = {buttonClick}>
-              <img src="./images/x.png" alt="" />
+            <div className = "order-3">
+              <div className={count ? "navbar_menu d-lg-none mx-5" : "navbar_x d-lg-none mx-5"} onClick = {buttonClick}>
+                <img src="./images/menu.png" alt="" />
+              </div>
+              <div className={count ? "navbar_x d-lg-none mx-5" : "navbar_menu d-lg-none mx-5"} onClick = {buttonClick}>
+                <img src="./images/x.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className={count ? "navbar_menus d-block d-lg-none" : "d-none"} onClick = {buttonClick}>
+      <div className={count ? "navbar_menus2 d-block" : "navbar_menus"} onClick = {buttonClick}>
         <div className="navbar_language d-flex mt-2 pt-3">
-          <p>РУС</p>
-          <p>UZ</p>
+          <p className={col ? "defalut" : "russian"} onClick = {handleClick} >
+            РУС
+          </p>
+          <p className={col ? "russian" : "defalut"} onClick = {handleClick} >
+            UZ
+          </p>
         </div>
         <ul className="nav d-block text-center mt-2 mx-4 order-3">
           {menus.map(({ title, id }) => (
