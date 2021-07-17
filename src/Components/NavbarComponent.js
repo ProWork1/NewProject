@@ -50,10 +50,10 @@ const NavbarComponent = () => {
       <div className="container ">
         <div className="row w-100 px-lg-5">
           <div className="col-lg col-md col-sm d-flex align-items-center navbar">
-            <div className="navbar_logo d-flex align-items-center order-2 order-lg-1 ">
+            <div className="navbar_logo d-flex align-items-center order-2 order-xl-1 ">
               <img src="./images/logo.png" alt="" />
             </div>
-            <div className="navbar_messanger d-flex order-1 order-lg-2">
+            <div className="navbar_messanger d-flex order-1 order-xl-2">
               <i className="fab fa-instagram"></i>
               <i className="fab fa-facebook-f"></i>
               <i className="fab fa-youtube"></i>
@@ -78,7 +78,7 @@ const NavbarComponent = () => {
               ))}
             </ul>
             <div className="ml-auto d-flex order-4">
-              <div className="navbar_language d-none d-lg-flex mt-2">
+              <div className="navbar_language d-none d-xl-flex mt-2">
                 <p className={col ? "russian" : "defalut"} onClick = {handleClick} >
                   РУС
                 </p>
@@ -86,7 +86,7 @@ const NavbarComponent = () => {
                   UZ
                 </p>
               </div>
-              <div className="navbar_message d-none d-lg-flex ml-auto">
+              <div className="navbar_message d-none d-xl-flex ml-auto">
                 <div className="cricle">
                   <i className="fas fa-comment-dots"></i>
                 </div>
@@ -94,10 +94,10 @@ const NavbarComponent = () => {
               </div>
             </div>
             <div className = "order-3">
-              <div className={count ? "navbar_menu d-lg-none mx-5" : "navbar_x d-lg-none mx-5"} onClick = {buttonClick}>
+              <div className={count ? "navbar_menu d-xl-none mx-5" : "navbar_x d-xl-none mx-5"} onClick = {buttonClick}>
                 <img src="./images/menu.png" alt="" />
               </div>
-              <div className={count ? "navbar_x d-lg-none mx-5" : "navbar_menu d-lg-none mx-5"} onClick = {buttonClick}>
+              <div className={count ? "navbar_x d-xl-none mx-5" : "navbar_menu d-xl-none mx-5"} onClick = {buttonClick}>
                 <img src="./images/x.png" alt="" />
               </div>
             </div>
