@@ -9,7 +9,7 @@ const AccordionComponent = () => {
             <Accordion>
                 <Card className="border-0 accordion__parent">
                     <div className="accordion__border">
-                        <Card.Header className="accordion__header bg-light ">
+                        <Card.Header className="accordion__header  ">
                             <Accordion.Toggle onClick={() => setPlusMinus(!plusMinus)} as={Button} eventKey="0"
                                               className={plusMinus ? "shadow-none accordion__btn" : "shadow-none accordion__btn color-dark"}>
                                 <div className={plusMinus ? "accordion__btn-inner": null}><span

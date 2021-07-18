@@ -35,10 +35,10 @@ const menus = [
   ];
 const NavbarComponent = () => {
 
-    const [count,setcount] = useState(false)
+    const [count,setcount] = useState(false);
     const buttonClick = () => {
         setcount(!count);
-    }
+    };
     let location = useLocation();
 
     return <div>
@@ -130,6 +130,6 @@ const NavbarComponent = () => {
         </div>
       </div>
     </div>
-}
+};
 
 export default NavbarComponent

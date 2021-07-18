@@ -1,11 +1,12 @@
 import React from 'react'
 
+
 const UniversityScreen = () => {
     return (
         <div>
-            Hello World University
+           hello world universty
         </div>
     )
-}
+};
 
 export default UniversityScreen
