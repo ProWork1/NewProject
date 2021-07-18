@@ -8,7 +8,6 @@
     margin-left: 10px;
 }
 .nav li {
-    /* width: 111px !important; */
     text-align: center !important;
 }
 .nav-link {
@@ -23,13 +22,9 @@
     color: #52BFFF !important;
 }
 .active img {
+    position: relative;
     display: block !important;
-}
-.navbar_line {
-    width: 100% !important;
-}
-.navbar_line > img {
-    display: none;
+    text-align: center !important;
     width: 100% !important;
 }
 .navbar_language p {
@@ -38,7 +33,10 @@
     margin-top: 15px;
     cursor: default;
 }
-.navbar_language :nth-child(1) {
+.default {
+    font-weight: normal;
+}
+.russian {
     color: #52BFFF;
     font-weight: bold;
     margin-right: 10px;
@@ -54,15 +52,13 @@
 .cricle {
     width: 38px;
     height: 38px;
-    padding: 7px;
+    padding: 8px;
     background: linear-gradient(213.88deg, #B1E2FF -67.78%, #68C7FF 175.48%);
     border-radius: 25px;
 }
 .fa-comment-dots {
-    display: flex;
     color: white;
-    margin-left: 4px;
-    align-items: center;
+    margin-left: 3px;
 }
 .navbar_message p {
     font-weight: bold;
@@ -71,15 +67,27 @@
     color: #52BFFF;
     margin: 0 0 0 8px;
 }
-@media (max-width: 560px) {
+.navbar_menus {
+    transform: translateY(-600px);
+}
+@media (max-width: 1400px) {
+    .row {
+        overflow: hidden !important;
+    }
+    .navbar {
+        flex-wrap: nowrap !important;
+        justify-content: space-around;
+    }
     .nav {
         display: none !important;
     }
     .fab {
         margin-right: 5px;
     }
-    .navbar_logo {
-        margin-left: 8px;
+    .navbar_logo img{
+        width: 92px !important;
+        height: 45px !important;
+        margin: 0 0 0 20px;
     }
     .navbar_menu{
         display: none !important;
@@ -87,8 +95,9 @@
     .navbar_x {
         display: block;
     }
-    .navbar_menus {
-        display: block !important;
+    .navbar_menus2 {
+        transition: all 1s ease;
+        transform: translateY(0px);
         background: #F8FCFF;
     }
     .navbar_language {

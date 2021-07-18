@@ -1,5 +1,5 @@
 import { Route, BrowserRouter as Router } from 'react-router-dom'
-import NavbarComponent from './Components/NavbarComponent'
+import HeaderComponent from './Components/HeaderComponent'
 import FooterComponent from './Components/FooterComponent'
 import MainPageScreen from './Screens/MainPageScreen'
 import AboutUsScreen from './Screens/AboutUsScreen'
@@ -18,7 +18,7 @@ function App() {
         <div className='App'>
             <Router>
                 <div>
-                    <NavbarComponent />
+                    <HeaderComponent/>
                 </div>
                 <div>
                     <Route path='/' component={MainPageScreen} exact />
