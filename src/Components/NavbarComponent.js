@@ -35,22 +35,20 @@ const menus = [
   ];
 const NavbarComponent = () => {
 
-<<<<<<< HEAD
+
     const [count,setcount] = useState(false);
     const buttonClick = () => {
         setcount(!count);
     };
-=======
-    const [count,setcount] = useState(false)
-    const [col,setcol] = useState(true)
-    const buttonClick = () => {
-        setcount(!count);
-    }
+
+
+    const [col,setcol] = useState(true);
+
     const handleClick = () => {
       setcol(!col)
-      
-    }
->>>>>>> 3dff85fa79ae807fead87846c1b163340964dacb
+
+    };
+
     let location = useLocation();
 
     return <div>

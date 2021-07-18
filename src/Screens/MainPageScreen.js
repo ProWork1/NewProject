@@ -19,6 +19,6 @@ const MainPageScreen = () => {
             </Container>
         </div>
     )
-}
+};
 
 export default MainPageScreen
