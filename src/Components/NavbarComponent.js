@@ -36,7 +36,7 @@ const menus = [
 const NavbarComponent = () => {
 
     const [count,setcount] = useState(false)
-    const [col,setcol] = useState(false)
+    const [col,setcol] = useState(true)
     const buttonClick = () => {
         setcount(!count);
     }

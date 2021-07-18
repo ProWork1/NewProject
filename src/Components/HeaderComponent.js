@@ -3,7 +3,7 @@ import NavbarComponent from './NavbarComponent'
 import '../css/header.css'
 
 const Header = () => {
-    return <div className = "back_image">
+    return <div>
         <NavbarComponent/>
     </div>
 }
