@@ -1,0 +1,14 @@
+.about-text{
+    color:  #7A7A7A;
+}
+
+@media (max-width: 500px) {
+    .second-item{
+        display: none;
+    }
+}
+@media (max-width: 575px) {
+    .about-text{
+        font-size: 12px;
+    }
+}
