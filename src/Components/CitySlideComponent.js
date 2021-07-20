@@ -31,7 +31,7 @@ const CitySlideComponent = () => {
                             },
                         }}
                 >
-                    {[...new Array(10)].map((index) => (
+                    {[...new Array(10)].map((item, index) => (
                         <SwiperSlide key={index}>
                             <Card className="border-0 slider__card">
                                 <Card.Body>

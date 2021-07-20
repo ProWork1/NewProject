@@ -1,14 +1,21 @@
 import React from 'react'
 import AccordionComponent from '../Components/AccordionComponent'
 import CitySlideComponent from '../Components/CitySlideComponent'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap';
+
+const arr = [
+    {title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?"},
+    {title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?"},
+    {title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?"},
+    {title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?"},
+]
 
 const MainPageScreen = () => {
     return (
         <div>
             <Container>
                 <Row className={'mt-5'}>
-                    {[...new Array(4)].map(index => (
+                    {arr.map((item,index) => (
                         <Col md={6} key={index}>
                             <AccordionComponent />
                         </Col>
