@@ -1,10 +1,13 @@
 import React from 'react'
 import '../css/contact.css'
+import Consultation from '../Components/Consultation'
+import './../css/consultation.css'
 
 const ContactScreen = () => {
     return (
         <div>
-            <div className="contact">
+            <Consultation />
+            {/* <div className="contact">
                 <img src="./images/tree.png" alt="" />
                 <p>Контакты</p>
                 <p>Свяжитесь с нами и мы ответим на все ваши вопросы</p>
@@ -89,8 +92,8 @@ const ContactScreen = () => {
                     </div>
                 </div>
             </div>
-            <div className="contact_mobile d-xl-none">
-                <div className="container">
+            <div className="contact_mobile d-xl-none"> */}
+                {/* <div className="container">
                     <div className="row">
                         <div className="col-12 text-center">
                             <p>Контакты</p>
@@ -173,7 +176,7 @@ const ContactScreen = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

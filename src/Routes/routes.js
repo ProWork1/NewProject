@@ -1,47 +1,46 @@
-import React from 'react';
+import React from 'react'
 import MainPageScreen from '../Screens/MainPageScreen'
-import AboutUsScreen from '../Screens/AboutUsScreen';
-import ServiceScreen from '../Screens/ServiceScreen';
-import University from '../Screens/UniversityScreen';
-import StudentsScreen from '../Screens/StudentsScreen';
-import NewsScreen from '../Screens/NewsScreen';
-import ContactScreen from '../Screens/ContactScreen';
+import AboutUsScreen from '../Screens/AboutUsScreen'
+import ServiceScreen from '../Screens/ServiceScreen'
+import University from '../Screens/UniversityScreen'
+import StudentsScreen from '../Screens/StudentsScreen'
+import NewsScreen from '../Screens/NewsScreen'
+import ContactScreen from '../Screens/ContactScreen'
 
 export const ROUTES = [
     {
-        url: "/",
+        url: '/',
         component: () => <MainPageScreen />,
-        exact: true
+        exact: true,
     },
     {
-        url: "/aboutus",
+        url: '/aboutus',
         component: () => <AboutUsScreen />,
-        exact: true
+        exact: true,
     },
     {
-        url: "/service",
+        url: '/service',
         component: () => <ServiceScreen />,
-        exact: true
+        exact: true,
     },
     {
-        url: "/university",
+        url: '/university',
         component: () => <University />,
-        exact: true
+        exact: true,
     },
     {
-        url: "/students",
+        url: '/students',
         component: () => <StudentsScreen />,
-        exact: true
+        exact: true,
     },
     {
-        url: "/news",
+        url: '/news',
         component: () => <NewsScreen />,
-        exact: true
+        exact: true,
     },
     {
-        url: "/contact",
+        url: '/contact',
         component: () => <ContactScreen />,
-        exact: true
-    }
-    
+        exact: true,
+    },
 ]

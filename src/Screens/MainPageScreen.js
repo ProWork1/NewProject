@@ -3,23 +3,22 @@ import AccordionComponent from '../Components/AccordionComponent'
 import CitySlideComponent from '../Components/CitySlideComponent'
 import { Container, Row, Col } from 'react-bootstrap'
 import CardUI from './../Components/CardUI'
-import { Container, Row, Col } from 'react-bootstrap';
-import Header2 from '../Components/Header2';
+import Header2 from '../Components/Header2'
 
 const arr = [
-    {title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?"},
-    {title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?"},
-    {title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?"},
-    {title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?"},
+    { title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?' },
+    { title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?' },
+    { title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?' },
+    { title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?' },
 ]
 
 const MainPageScreen = () => {
     return (
         <div>
-            <Container>
-<<<<<<< HEAD
+            <div id="header">
                 <Header2 />
-=======
+            </div>
+            <Container>
                 <div className='cardui mb-3' style={{}}>
                     <CardUI />
                 </div>
@@ -32,9 +31,8 @@ const MainPageScreen = () => {
                         ))}
                     </Row>
                 </div>
->>>>>>> bd79886bbf627782e59b69fdcd5104a40cb51217
                 <Row className={'mt-5'}>
-                    {arr.map((item,index) => (
+                    {arr.map((item, index) => (
                         <Col md={6} key={index}>
                             <AccordionComponent />
                         </Col>
