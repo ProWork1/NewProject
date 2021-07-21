@@ -70,6 +70,13 @@
 .navbar_menus {
     transform: translateY(-600px);
 }
+.navbar_x {
+    display: none;
+}
+
+.nav-md {
+    display: block !important;
+}
 @media (max-width: 1400px) {
     .row {
         overflow: hidden !important;
@@ -79,6 +86,9 @@
         justify-content: space-around;
     }
     .nav {
+        display: none !important;
+    }
+    .nav-md {
         display: none !important;
     }
     .fab {
@@ -130,5 +140,4 @@
         line-height: 16px;
         color: #7A7A7A;
     }
-
 }
