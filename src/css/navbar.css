@@ -78,6 +78,9 @@
         flex-wrap: nowrap !important;
         justify-content: space-around;
     }
+    .navbar_right {
+        display: none !important;
+    }
     .nav {
         display: none !important;
     }
@@ -111,6 +114,9 @@
         transform: matrix(-1, 0, 0, 1, 0, 0);
         margin-right: 10px;
     }
+    .text_center {
+        position: relative !important;
+    }
     .time p {
         font-size: 12px;
         line-height: 16px;
@@ -121,6 +127,7 @@
         margin-right: 10px;
     }
     .location p{
+        position: relative;
         font-size: 12px;
         line-height: 16px;
         color: #313131;

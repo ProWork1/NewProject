@@ -92,7 +92,7 @@ const ContactScreen = () => {
             <div className="contact_mobile d-xl-none">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 text-center">
+                        <div className="col-12 text-center text_contact">
                             <p>Контакты</p>
                             <p>Свяжитесь с нами и мы ответим на все ваши вопросы</p>
                         </div>
@@ -125,7 +125,7 @@ const ContactScreen = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className = "location">
+                            <div className = "location_contact">
                                 <img src="./images/location.png" alt="" />
                                 <p>1</p>
                             </div>

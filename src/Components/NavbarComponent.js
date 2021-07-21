@@ -55,7 +55,7 @@ const NavbarComponent = () => {
       <div className="container ">
         <div className="row w-100 px-lg-5">
           <div className="col-lg col-md col-sm d-flex align-items-center navbar">
-            <div className="navbar_logo d-flex align-items-center order-2 order-xl-1 ">
+            <div className="navbar_logo d-flex align-items-center order-2 order-md-2 order-xl-1 ">
               <img src="./images/logo.png" alt="" />
             </div>
             <div className="navbar_messanger d-flex order-1 order-xl-2">
@@ -82,7 +82,7 @@ const NavbarComponent = () => {
                 </li>
               ))}
             </ul>
-            <div className="ml-auto d-flex order-4">
+            <div className="ml-auto d-xl-flex order-xl-4 d-none">
               <div className="navbar_language d-none d-xl-flex mt-2">
                 <p className={col ? "russian" : "defalut"} onClick = {handleClick} >
                   РУС
@@ -98,7 +98,7 @@ const NavbarComponent = () => {
                 <p>Оставить заявку</p>
               </div>
             </div>
-            <div className = "order-3">
+            <div className = "order-3 d-xl-none">
               <div className={count ? "navbar_menu d-xl-none mx-5" : "navbar_x d-xl-none mx-5"} onClick = {buttonClick}>
                 <img src="./images/menu.png" alt="" />
               </div>
@@ -109,8 +109,8 @@ const NavbarComponent = () => {
           </div>
         </div>
       </div>
-      <div className={count ? "navbar_menus2 d-block" : "navbar_menus"} onClick = {buttonClick}>
-        <div className="navbar_language d-flex mt-2 pt-3">
+      <div className={count ? "navbar_menus2 d-block text-center" : "navbar_menus text-center"} onClick = {buttonClick}>
+        <div className="navbar_language d-flex mt-2 pt-3 text-center">
           <p className={col ? "defalut" : "russian"} onClick = {handleClick} >
             РУС
           </p>
@@ -118,7 +118,7 @@ const NavbarComponent = () => {
             UZ
           </p>
         </div>
-        <ul className="nav d-block text-center mt-2 mx-4 order-3">
+        <ul className="nav d-block text-center mt-2 mx-4">
           {menus.map(({ title, id }) => (
             <li
               className={
@@ -132,17 +132,17 @@ const NavbarComponent = () => {
             </li>
           ))}
         </ul>
-        <div className="navbar_message d-flex">
+        <div className="navbar_message d-flex text-center">
           <div className="cricle">
             <i className="fas fa-comment-dots"></i>
           </div>
           <p>Оставить заявку</p>
         </div>
-        <div className="d-flex time mt-5 mx-4">
+        <div className="d-flex time mt-5 mx-4 text-center">
           <i className="fas fa-clock"></i>
           <p>Пн-Пт 9:00 - 18:00</p>
         </div>
-        <div className="d-flex location mx-4">
+        <div className="d-flex location mx-4 text-center">
           <i className="fas fa-map-marker-alt"></i>
           <p>
             г. Город <span>ул. Улица, 24 (Офис 24)</span>
