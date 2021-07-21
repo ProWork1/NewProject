@@ -19,6 +19,7 @@ const MainPageScreen = () => {
                 <Header2 />
             </div>
             <Container>
+                <Header2 />
                 <div className='cardui mb-3' style={{}}>
                     <CardUI />
                 </div>
