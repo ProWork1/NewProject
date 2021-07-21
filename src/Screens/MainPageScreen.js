@@ -17,9 +17,7 @@ const MainPageScreen = () => {
     return (
         <div>
             <Container>
-<<<<<<< HEAD
                 <Header2 />
-=======
                 <div className='cardui mb-3' style={{}}>
                     <CardUI />
                 </div>
@@ -32,7 +30,6 @@ const MainPageScreen = () => {
                         ))}
                     </Row>
                 </div>
->>>>>>> bd79886bbf627782e59b69fdcd5104a40cb51217
                 <Row className={'mt-5'}>
                     {arr.map((item,index) => (
                         <Col md={6} key={index}>
