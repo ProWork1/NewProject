@@ -15,11 +15,6 @@ function App() {
                     return <Route exact={route.exact} key={index} path={route.url} component={route.component} />
                 })}
             </Switch>
-            
-            {/* <Route path='/rfcscreen' component={RFCScreen} exact />
-                    <Route path='/universityname' component={UniversityNameScreen} exact />
-                    <Route path='/article' component={ArticleScreen} exact /> */}
-
             <div>
                 <FooterComponent />
             </div>
