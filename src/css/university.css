@@ -21,6 +21,7 @@
     border-radius: 5px !important;
     border: none !important;
     padding: 8px 15px !important;
+    color: #bed8e8 !important;
 }
 #universityid .site-form-item-icon {
     color: #bed8e8 !important;
@@ -28,6 +29,7 @@
 #universityid .university_search input {
     background: #f8fcff !important;
     margin-left: 10px !important;
+    border: none !important;
 }
 #universityid .university_right span {
     margin-left: 10px;

@@ -4,7 +4,7 @@ import ContactComponent from '../Components/ContactComponent'
 const ContactScreen = () => {
     return (
         <div>
-            {/* <ContactComponent /> */}
+            <ContactComponent />
         </div>
     )
 }
