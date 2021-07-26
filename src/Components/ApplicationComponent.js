@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FooterComponent = () => {
+const ApplicationComponent = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const FooterComponent = () => {
     )
 }
 
-export default FooterComponent
+export default ApplicationComponent

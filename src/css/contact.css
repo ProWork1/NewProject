@@ -8,7 +8,15 @@
     right: 0%;
     top: 12%;
     bottom: -15.08%;
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 25.52%, rgba(255, 255, 255, 0) 44.27%, rgba(255, 255, 255, 0) 76.56%, #FFFFFF 100%),url('./images/map.png');
+    background: linear-gradient(
+            180deg,
+            #ffffff 0%,
+            rgba(255, 255, 255, 0) 25.52%,
+            rgba(255, 255, 255, 0) 44.27%,
+            rgba(255, 255, 255, 0) 76.56%,
+            #ffffff 100%
+        );
+        /* url('./images/map.png'); */
     background-repeat: no-repeat;
 }
 .contact img {
@@ -26,13 +34,13 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 46px;
-    color: #52BFFF;
+    color: #52bfff;
     margin-top: 180px;
 }
 .contact p:nth-child(3) {
     font-size: 18px;
     line-height: 26px;
-    color: #7A7A7A;
+    color: #7a7a7a;
 }
 .contact img:nth-child(4) {
     position: absolute;
@@ -88,7 +96,7 @@
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
 }
 .card_border {
-    border: 1px dashed #E2EDF3 !important;
+    border: 1px dashed #e2edf3 !important;
     border-radius: 20px;
     padding: 15px !important;
 }
@@ -100,25 +108,25 @@
     width: 20px !important;
     height: 20px !important;
     border-radius: 50%;
-    background: #52BFFF;
+    background: #52bfff;
     padding: 2px;
 }
 .contact_cricle p {
     font-size: 12px;
     line-height: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-.contact_text p:nth-child(1){
+.contact_text p:nth-child(1) {
     text-align: left !important;
     font-size: 16px;
     line-height: 24px;
     color: #313131;
 }
-.contact_text p:nth-child(2){
+.contact_text p:nth-child(2) {
     margin-top: -15px !important;
     font-size: 10px !important;
     line-height: 22px !important;
-    color: #7A7A7A !important;
+    color: #7a7a7a !important;
 }
 .contact_box {
     width: 300px;
@@ -132,7 +140,7 @@
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
 }
 .box_border {
-    border: 1px dashed #E2EDF3 !important;
+    border: 1px dashed #e2edf3 !important;
     border-radius: 20px;
     padding: 25px !important;
 }
@@ -146,7 +154,7 @@
     text-align: left;
     margin-top: -5px;
 }
-.box_number p:nth-child(1){
+.box_number p:nth-child(1) {
     font-size: 16px;
     line-height: 24px;
     color: #313131;
@@ -155,23 +163,23 @@
     margin-top: -5px !important;
     font-size: 10px;
     line-height: 22px;
-    color: #7A7A7A;
+    color: #7a7a7a;
 }
 .box_number p:nth-child(3) {
     margin-top: -8px !important;
     font-size: 10px;
     line-height: 22px;
-    color: #7A7A7A;
+    color: #7a7a7a;
 }
 .box_button {
     position: absolute;
-    background: linear-gradient(213.88deg, #B1E2FF -67.78%, #68C7FF 175.48%);
+    background: linear-gradient(213.88deg, #b1e2ff -67.78%, #68c7ff 175.48%);
     border-radius: 60px;
     height: 48px;
     left: 50px;
 }
 .button_cricle {
-    background: linear-gradient(322.12deg, #B1E2FF 1.25%, #68C7FF 89.56%);
+    background: linear-gradient(322.12deg, #b1e2ff 1.25%, #68c7ff 89.56%);
     border-radius: 25px;
     transform: matrix(1, 0, 0, 1, 0, 0);
     width: 38px;
@@ -187,7 +195,7 @@
     font-size: 16px !important;
     line-height: 15px;
     text-align: center !important;
-    color: #FFFFFF !important;
+    color: #ffffff !important;
     margin-top: 10px !important;
 }
 @media screen and (max-width: 1400px) {
@@ -196,12 +204,20 @@
     }
     .contact_mobile {
         margin-top: -90px;
-        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 13.02%, rgba(255, 255, 255, 0) 47.4%, rgba(255, 255, 255, 0) 83.33%, #FFFFFF 100%), url('./images/mobilemap.png');
+        background: linear-gradient(
+                180deg,
+                #ffffff 0%,
+                rgba(255, 255, 255, 0) 13.02%,
+                rgba(255, 255, 255, 0) 47.4%,
+                rgba(255, 255, 255, 0) 83.33%,
+                #ffffff 100%
+            ),
+            url('./images/mobilemap.png');
         background-repeat: no-repeat;
         background-size: cover !important;
         height: 580px;
     }
-    .text_contact{
+    .text_contact {
         position: absolute;
         top: 120px;
         padding: 0 !important;
@@ -211,7 +227,7 @@
         font-weight: bold;
         font-size: 24px;
         line-height: 32px;
-        color: #52BFFF;
+        color: #52bfff;
         margin-bottom: 0px;
     }
     .text_contact p:nth-child(2) {
@@ -220,7 +236,7 @@
         line-height: 18px;
         letter-spacing: 1px;
         word-spacing: 2px;
-        color: #7A7A7A;
+        color: #7a7a7a;
     }
     .contact_mobile_box {
         border-radius: 20px;
@@ -230,7 +246,7 @@
         box-shadow: 0px 0px 40px rgba(119, 205, 255, 0.2);
     }
     .mobile_box_border {
-        border: 1px dashed #E2EDF3 !important;
+        border: 1px dashed #e2edf3 !important;
         border-radius: 20px;
         padding: 25px !important;
         width: 100%;
@@ -246,7 +262,7 @@
         text-align: left;
         margin-top: -5px;
     }
-    .mobile_box_number p:nth-child(1){
+    .mobile_box_number p:nth-child(1) {
         font-size: 16px;
         line-height: 24px;
         color: #313131;
@@ -255,13 +271,13 @@
         margin-top: -5px !important;
         font-size: 10px;
         line-height: 22px;
-        color: #7A7A7A;
+        color: #7a7a7a;
     }
     .mobile_box_number p:nth-child(3) {
         margin-top: -8px !important;
         font-size: 10px;
         line-height: 22px;
-        color: #7A7A7A;
+        color: #7a7a7a;
     }
     .location_contact img {
         width: 32px;
@@ -297,7 +313,7 @@
         margin: -30px 0 0 130px;
     }
     .mobile_box_button {
-        background: linear-gradient(213.88deg, #B1E2FF -67.78%, #68C7FF 175.48%);
+        background: linear-gradient(213.88deg, #b1e2ff -67.78%, #68c7ff 175.48%);
         border-radius: 60px;
         padding: 5px;
         width: 90%;
@@ -305,7 +321,7 @@
         margin-left: 5%;
     }
     .mobile_button_cricle {
-        background: linear-gradient(322.12deg, #B1E2FF 1.25%, #68C7FF 89.56%);
+        background: linear-gradient(322.12deg, #b1e2ff 1.25%, #68c7ff 89.56%);
         border-radius: 25px;
         transform: matrix(1, 0, 0, 1, 0, 0);
         width: 38px;
@@ -320,7 +336,7 @@
         font-size: 16px !important;
         line-height: 15px;
         text-align: center !important;
-        color: #FFFFFF !important;
+        color: #ffffff !important;
         margin-top: 10px !important;
         margin-left: 30px;
     }

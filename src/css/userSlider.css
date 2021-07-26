@@ -1,0 +1,58 @@
+#userSlider .usercard__title {
+    color: #7a7a7a;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#userSlider .usercard__info {
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+#userSlider .usercard__border {
+    border: 2px dashed #ecf6fc;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#userSlider .user__slider {
+    padding-top: 150px;
+}
+
+#userSlider .user__card {
+    border-radius: 20px !important;
+    padding: 12px;
+    position: relative;
+}
+
+#userSlider .userimg__wrapper {
+    width: 212px;
+    height: 212px;
+    border-radius: 100%;
+    background: linear-gradient(213.88deg, #b1e2ff -67.78%, #68c7ff 175.48%);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: -130px auto 0;
+    transition: all 0.2s linear;
+}
+#userSlider .userimg__wrapper img {
+    left: calc(50% - 72.5px);
+}
+
+#userSlider .user__card:hover .userimg__wrapper {
+    background: #e52732;
+}
+
+/*media*/
+@media (max-width: 576px) {
+    #userSlider .usercard__title {
+        font-size: 14px;
+    }
+
+    #userSlider .usercard__info {
+        font-size: 10px;
+    }
+}

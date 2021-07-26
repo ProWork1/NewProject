@@ -1,0 +1,253 @@
+#universityid .university_theme {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #52bfff;
+    margin: 30px 0;
+}
+#universityid hr {
+    color: rgba(226, 237, 243, 0.5);
+}
+#universityid .university_left p {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #313131;
+}
+#universityid .university_search {
+    width: 70% !important;
+    background: #f8fcff !important;
+    border-radius: 5px !important;
+    border: none !important;
+    padding: 8px 15px !important;
+}
+#universityid .site-form-item-icon {
+    color: #bed8e8 !important;
+}
+#universityid .university_search input {
+    background: #f8fcff !important;
+    margin-left: 10px !important;
+}
+#universityid .university_right span {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 13px;
+    color: #7a7a7a;
+}
+#universityid .ant-menu-submenu-title span {
+    color: #313131 !important;
+}
+#universityid .ant-menu-item-icon svg {
+    color: #52bfff !important;
+}
+#universityid .ant-menu-inline {
+    height: 320px !important;
+    background-color: white !important;
+}
+#universityid .ant-menu-sub.ant-menu-inline > .ant-menu-item,
+#universityid .ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    height: 320px !important;
+}
+#universityid .ant-menu-item-selected {
+    background-color: white !important;
+}
+#universityid .ant-menu-inline,
+#universityid .ant-menu-vertical,
+#universityid .ant-menu-vertical-left {
+    border-right: none !important;
+}
+#universityid .ant-menu-vertical .ant-menu-item::after,
+#universityid .ant-menu-vertical-left .ant-menu-item::after,
+#universityid .ant-menu-vertical-right .ant-menu-item::after,
+#universityid .ant-menu-inline .ant-menu-item::after {
+    border-right: none !important;
+}
+#universityid .ant-checkbox-input {
+    border-radius: 50% !important;
+}
+#universityid .university_card {
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#universityid .university_card .swiper-container {
+    width: 207px !important;
+    height: 100%;
+    margin: 0 30px 0 0 !important;
+}
+#universityid .university_card > .swiper-slide {
+    overflow: hidden;
+    width: 220px !important;
+}
+#universityid .university_card .swiper-zoom-container img {
+    width: 300px !important;
+    padding: 0 !important;
+}
+#universityid .university_text {
+    border-right: 1px solid rgba(226, 237, 243, 0.5);
+    padding: 0 50px 0 0;
+}
+#universityid .university_text p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #7a7a7a;
+}
+#universityid .university_text_first i {
+    margin-right: 10px;
+}
+#universityid .university_text_first p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #7a7a7a;
+}
+#universityid .university_text_first p:nth-child(1) {
+    margin-bottom: 0;
+}
+#universityid .university_card_text {
+    margin-left: 50px;
+}
+#universityid .university_card_text p {
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7a7a7a;
+    margin-bottom: 0;
+}
+#universityid .university_card_text a {
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+#universityid .university_text_last i {
+    margin-right: 10px;
+}
+#universityid .university_text_last span {
+    font-size: 12px;
+    line-height: 20px;
+    color: #7a7a7a;
+}
+#universityid .university_card_right {
+    margin: 55px 0 0 130px;
+}
+#universityid .university_card_right p:nth-child(1) {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 800;
+    color: #52bfff;
+}
+#universityid .university_card_right p:nth-child(2) {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #7a7a7a;
+    margin-top: -15px !important;
+}
+#universityid .university_card_stars {
+    position: absolute;
+    right: 10% !important;
+}
+#universityid .university_card_stars i {
+    margin-right: 8px;
+}
+#universityid .btn {
+    width: 100%;
+    background: linear-gradient(213.88deg, #b1e2ff -67.78%, #68c7ff 175.48%);
+    border-radius: 50px !important;
+    text-align: center !important;
+}
+#universityid .student_cricle {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: linear-gradient(322.12deg, #b1e2ff 1.25%, #68c7ff 89.56%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+#universityid .student_cricle img {
+    margin-top: 10px;
+}
+#universityid .btn p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+    color: #ffffff;
+    margin: 0 0 0 45px;
+}
+
+@media screen and (max-width: 1400px) {
+    #universityid .university_left {
+        width: 95% !important;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(213.88deg, #b1e2ff -67.78%, #68c7ff 175.48%);
+        margin-bottom: 20px !important;
+        padding: 8px;
+    }
+    #universityid .university_cricle {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: linear-gradient(322.12deg, #b1e2ff 1.25%, #68c7ff 89.56%);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+    #universityid .university_cricle img {
+        margin: 10px 0 0 9px !important;
+    }
+    #universityid .university_left p {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 15px;
+        color: #ffffff;
+        margin: 0 0 0 45px;
+    }
+    #universityid .university_search {
+        width: 100% !important;
+    }
+    #universityid .university_card {
+        margin: 20px 0;
+        width: 100% !important;
+    }
+    #universityid .university_card .swiper-container {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 20px !important;
+    }
+    #universityid .university_text {
+        border-right: none;
+        border-bottom: 1px solid rgba(226, 237, 243, 0.5);
+        padding: 0 0 20px 0;
+    }
+    #universityid .university_text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #universityid .university_text_first p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    #universityid .university_card_text p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    #universityid .university_card_text a {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    #universityid .university_text_last span {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    #universityid .university_card_right {
+        margin: 10px 0 0 0;
+    }
+    #universityid .university_card_stars {
+        top: 10px;
+        left: 20px;
+        z-index: 99999;
+    }
+}

@@ -1,22 +1,21 @@
-.accordion{
+mr-0.accordion {
     position: relative;
 }
 .accordion__header {
-    background: #FFF !important;
+    background: #fff !important;
     border-bottom: none !important;
     border-radius: 20px !important;
-
 }
 .accordion__parent {
     margin-bottom: 20px;
     padding: 0.8rem;
-    background: #FFF !important;
+    background: #fff !important;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
     border-radius: 20px !important;
 }
-.accordion__border{
-    border: 2px dashed #ECF6FC;
-    padding:0.5rem;
+.accordion__border {
+    border: 2px dashed #ecf6fc;
+    padding: 0.5rem;
     border-radius: 20px;
 }
 .accordion__title {
@@ -24,14 +23,15 @@
     line-height: 26px;
     cursor: pointer;
 }
-.accordion__title, .accordion__body {
-    color: #7A7A7A;
+.accordion__title,
+.accordion__body {
+    color: #7a7a7a;
 }
 .accordion__title:hover {
     color: #000;
 }
 .accordion__btn {
-    background: linear-gradient(213.88deg, #B1E2FF -67.78%, #68C7FF 175.48%);
+    background: linear-gradient(213.88deg, #b1e2ff -67.78%, #68c7ff 175.48%);
     border: none !important;
     border-radius: 50% !important;
     width: 48px;
@@ -41,12 +41,12 @@
     align-items: center;
     position: absolute;
     top: 30px;
-    right:-20px;
+    right: -20px;
 }
 .accordion__btn-inner {
     width: 38px;
     height: 38px;
-    background: linear-gradient(322.12deg, #B1E2FF 1.25%, #68C7FF 89.56%);
+    background: linear-gradient(322.12deg, #b1e2ff 1.25%, #68c7ff 89.56%);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -55,16 +55,16 @@
     padding: 10px;
     font-size: 20px;
 }
-.accordion__btn.color-dark{
-    background: #D9D9D9 !important;
+.accordion__btn.color-dark {
+    background: #d9d9d9 !important;
 }
 /*media*/
-@media (max-width: 500px){
-    .accordion__title{
+@media (max-width: 500px) {
+    .accordion__title {
         font-size: 12px;
         line-height: 18px;
     }
-    .accordion__body{
+    .accordion__body {
         font-size: 12px;
         line-height: 14px;
     }

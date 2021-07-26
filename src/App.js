@@ -1,17 +1,17 @@
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
-import FooterComponent from './Components/FooterComponent'
+import { Route, Switch } from 'react-router-dom'
+import Footer from './Components/Footer'
 import './App.css'
-import { ROUTES } from './Routes/routes'
-import NavbarComponent from './Components/NavbarComponent'
+import { Routes } from './routes/Routes'
+import Sidebar from './Components/Sidebar'
 
 function App() {
     return (
         <div className='App'>
             <div>
-                <NavbarComponent />
+                <Sidebar />
             </div>
             <Switch>
-                {ROUTES.map((route, index) => {
+                {Routes.map((route, index) => {
                     return (
                         <Route
                             exact={route.exact}
@@ -22,13 +22,8 @@ function App() {
                     )
                 })}
             </Switch>
-
-            {/* <Route path='/rfcscreen' component={RFCScreen} exact />
-                    <Route path='/universityname' component={UniversityNameScreen} exact />
-                    <Route path='/article' component={ArticleScreen} exact /> */}
-
             <div>
-                <FooterComponent />
+                <Footer />
             </div>
         </div>
     )

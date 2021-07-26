@@ -10,7 +10,7 @@
     justify-content: center;
     font-size: 18px;
     font-weight: 400;
-    color: #7A7A7A;
+    color: #7a7a7a;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -18,7 +18,7 @@
 #consultation #title button i {
     margin-top: 2px;
     margin-right: 20px;
-    color: #52BFFF
+    color: #52bfff;
 }
 
 #consultation #title button:hover {
@@ -26,7 +26,7 @@
 }
 
 #consultation #title button:hover i {
-    color: #32b1fa
+    color: #32b1fa;
 }
 /* #title span i {
     margin-right: 10px;
@@ -37,19 +37,17 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 46px;
-    color: #52BFFF;
+    color: #52bfff;
 }
-
-
 
 #consultation .body label {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    color: #7A7A7A;
+    color: #7a7a7a;
     margin-left: 20px;
     margin-bottom: 5px;
-} 
+}
 
 #consultation .body .radio {
     display: flex;
@@ -61,14 +59,13 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
-    color: #98B6C9;
+    color: #98b6c9;
     margin: 0;
     margin-left: 5px;
-} 
-
+}
 
 #consultation .body input {
-    background: #F8FCFF;
+    background: #f8fcff;
     border: 2px solid transparent;
     border-radius: 10px;
     height: 48px;
@@ -86,16 +83,16 @@
 }
 
 #consultation .body input:hover {
-    border: 2px solid #E7EFF4;
+    border: 2px solid #e7eff4;
 }
 
 #consultation .body input:focus {
-    border: 2px solid #E7EFF4;
-    background: #FFFFFF;
+    border: 2px solid #e7eff4;
+    background: #ffffff;
 }
 
 #consultation .body select {
-    background: #F8FCFF;
+    background: #f8fcff;
     border: 2px solid transparent;
     border-radius: 10px;
     height: 48px;
@@ -107,23 +104,23 @@
 }
 
 #consultation .body select:hover {
-    border: 2px solid #E7EFF4;
+    border: 2px solid #e7eff4;
 }
 
 #consultation .body select:focus {
-    border: 2px solid #E7EFF4;
-    background: #FFFFFF;
+    border: 2px solid #e7eff4;
+    background: #ffffff;
 }
 
-#consultation .body input[type="radio"] {
+#consultation .body input[type='radio'] {
     width: 20px;
     height: 20px;
-    border-color: #CDEDFF !important;
+    border-color: #cdedff !important;
 }
 
 #consultation .body textarea {
     height: 100px !important;
-    background: #F8FCFF;
+    background: #f8fcff;
     border: 2px solid transparent;
     border-radius: 10px;
     height: 48px;
@@ -135,17 +132,17 @@
 }
 
 #consultation .body textarea:hover {
-    border: 2px solid #E7EFF4;
+    border: 2px solid #e7eff4;
 }
 
 #consultation .body textarea:focus {
-    border: 2px solid #E7EFF4;
-    background: #FFFFFF;
+    border: 2px solid #e7eff4;
+    background: #ffffff;
 }
 
 #consultation .body i.label-icon {
     margin-right: 10px;
-    color: #BED8E8;
+    color: #bed8e8;
 }
 
 @media (min-width: 992px) {

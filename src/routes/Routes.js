@@ -6,8 +6,12 @@ import University from '../Screens/UniversityScreen'
 import StudentsScreen from '../Screens/StudentsScreen'
 import NewsScreen from '../Screens/NewsScreen'
 import ContactScreen from '../Screens/ContactScreen'
+import Unknown from '../Screens/Unknown'
+import ApplicationScreen from '../Screens/ApplicationScreen'
+import UniversityNameScreen from './../Screens/UniversityNameScreen'
+import ArticleScreen from '../Screens/ArticleScreen'
 
-export const ROUTES = [
+export const Routes = [
     {
         url: '/',
         component: () => <MainPageScreen />,
@@ -41,6 +45,25 @@ export const ROUTES = [
     {
         url: '/contact',
         component: () => <ContactScreen />,
+        exact: true,
+    },
+    {
+        url: '/application',
+        component: () => <ApplicationScreen />,
+        exact: true,
+    },
+    {
+        url: '/name-university',
+        component: () => <UniversityNameScreen />,
+        exact: true,
+    },
+    {
+        url: '/article',
+        component: () => <ArticleScreen />,
+        exact: true,
+    },
+    {
+        component: () => <Unknown />,
         exact: true,
     },
 ]
