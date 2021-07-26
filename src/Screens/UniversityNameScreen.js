@@ -1,19 +1,37 @@
 import React from 'react'
-import UniverSlide from '../Components/UniverSlideComponent';
-import UniverAccordComponent from "../Components/UniverAccordComponent";
-import {Container, Col, Row, Accordion} from 'react-bootstrap';
+import UniverSlide from '../Components/UniverSlideComponent'
+import UniverAccordComponent from '../Components/UniverAccordComponent'
+import FooterTop from './../Components/FooterTop'
+import AboutUniversity from './../Components/AboutUniversity'
+import UniversityName from './../Components/UniversityName'
+import { Container } from 'react-bootstrap'
 
 const UniversityNameScreen = () => {
     return (
         <div>
-            <Container>
-                {[...new Array(2)].map((index) =>
-                    <UniverAccordComponent key={index}/>
-                )}
-                <UniverSlide/>
-            </Container>
+            <div>
+                <UniversityName />
+            </div>
+            <div>
+                <AboutUniversity />
+            </div>
+            <div>
+                <Container>
+                    {[...new Array(2)].map(index => (
+                        <UniverAccordComponent key={index} />
+                    ))}
+                </Container>
+            </div>
+            <div>
+                <Container>
+                    <UniverSlide />
+                </Container>
+            </div>
+            <div>
+                <FooterTop />
+            </div>
         </div>
     )
-};
+}
 
 export default UniversityNameScreen

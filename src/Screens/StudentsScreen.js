@@ -1,9 +1,16 @@
 import React from 'react'
+import FooterTop from '../Components/FooterTop'
+import Students from '../Components/Students'
 
 const StudentsScreen = () => {
     return (
         <div>
-            Hello World Students
+            <div>
+                <Students />
+            </div>
+            <div>
+                <FooterTop />
+            </div>
         </div>
     )
 }
