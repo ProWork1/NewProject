@@ -14,22 +14,21 @@
 } */
 
 .navbar-inverse {
-	position: relative;
-	width: 100%;
-	min-height: 100px;
-	padding: 0;
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    padding: 0;
     background-color: white;
 }
 
 .navbar-inverse .container {
-	flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
 }
 
 .navbar-header {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 header .brand-block {
@@ -55,26 +54,26 @@ header .brand-block ul li a {
 }
 
 .navbar-header button.navbar-toggle {
-	border: 0;
-	background-color: transparent;
-	cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .navbar-header button:active {
-	border: 0;
+    border: 0;
 }
 
 .navbar-header button:focus {
-	outline: 0;
+    outline: 0;
 }
 
 .navbar .navbar-collapse {
-	width: 100%;
-	display: none;
-	position: absolute;
-    background-color: #F8FCFF;
-	top: 100px;
-	left: 0;
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: #f8fcff;
+    top: 100px;
+    left: 0;
     z-index: 9999;
 }
 
@@ -82,16 +81,16 @@ header .brand-block ul li a {
     align-items: center;
     padding: 0;
     margin: 0;
-	list-style: none;
+    list-style: none;
 }
 
 .navbar .navbar-collapse.show {
-	display: block;
+    display: block;
 }
 
 .navbar-collapse .nav-link {
     /* position: relative; */
-    color: #7A7A7A;
+    color: #7a7a7a;
     text-align: center;
     padding-left: 5px;
     padding-right: 5px;
@@ -118,11 +117,11 @@ header .brand-block ul li a {
 
 .navbar-collapse .active .nav-link {
     font-weight: bold;
-    color: #52BFFF;
+    color: #52bfff;
 }
 
 .navbar .navbar-collapse.show {
-	display: block;
+    display: block;
 }
 
 header .language-li-1 {
@@ -139,23 +138,23 @@ header .language-li-2 {
 }
 
 header .language {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 header .language button {
-	border: 0;
-	background-color: transparent;
-	font-size: 12px;
-	line-height: 11px;
-	text-align: center;
-	color: #52BFFF;
-	cursor: pointer;
-	padding: 3px;
+    border: 0;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    color: #52bfff;
+    cursor: pointer;
+    padding: 3px;
 }
 
 header .language.active button {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 header .submit_your_application {
@@ -171,14 +170,15 @@ header .submit_your_application button {
     height: 48px;
     display: flex;
     align-items: center;
-	background-color: #ffffff;
+    background-color: #ffffff;
     border: 0;
+    box-shadow: 0px 0px 25px rgba(82, 191, 255, 0.15);
     border-radius: 25px;
-	font-size: 14px;
-	line-height: 13.4px;
-	font-weight: 700;
-	color: #52BFFF;
-	cursor: pointer;
+    font-size: 14px;
+    line-height: 13.4px;
+    font-weight: 700;
+    color: #52bfff;
+    cursor: pointer;
 }
 
 header .submit_your_application button i {
@@ -187,7 +187,7 @@ header .submit_your_application button i {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(213.88deg, #B1E2FF -67.78%, #68C7FF 175.48%);
+    background: linear-gradient(213.88deg, #b1e2ff -67.78%, #68c7ff 175.48%);
     border-radius: 50%;
     margin-right: 15px;
 }
@@ -228,9 +228,9 @@ header .header-bottom p span {
     .navbar-inverse {
         background-color: transparent;
     }
-	.navbar-header {
-		width: auto;
-	}
+    .navbar-header {
+        width: auto;
+    }
     header .brand-block a {
         order: 1 !important;
     }
@@ -238,24 +238,24 @@ header .header-bottom p span {
     .navbar-collapse .nav-item.active .active_line {
         display: block !important;
     }
-    
+
     header .brand-block ul {
         order: 2 !important;
     }
-	.navbar-header button.navbar-toggle {
-		display: none;
-	}
-	.navbar .navbar-collapse {
-		position: relative;
-		display: block;
-		top: 0;
+    .navbar-header button.navbar-toggle {
+        display: none;
+    }
+    .navbar .navbar-collapse {
+        position: relative;
+        display: block;
+        top: 0;
         background-color: transparent !important;
-	}
-	.navbar-collapse ul {
-		width: auto;
-		display: flex;
-		justify-content: space-between;
-	}
+    }
+    .navbar-collapse ul {
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+    }
     header .submit_your_application {
         padding: 0;
     }
@@ -270,10 +270,6 @@ header .header-bottom p span {
     }
 }
 
-
-
-
-
 .navbar-collapse {
-	display: none;
+    display: none;
 }

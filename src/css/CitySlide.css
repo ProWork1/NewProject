@@ -1,3 +1,43 @@
+#citySlide .swiper-button-next,
+#citySlide .swiper-button-prev {
+    width: 44px !important;
+    height: 44px !important;
+}
+#citySlide .swiper-button-prev::after,
+#citySlide .swiper-button-next::after {
+    font-size: 22px !important;
+}
+
+#citySlide .swiper-button-next {
+    right: 0px !important;
+}
+
+#citySlide .swiper-button-prev {
+    left: 0px !important;
+}
+
+#citySlide .citySlideTopic {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #52bfff;
+}
+
+#citySlide .mt {
+    margin-top: 150px !important;
+}
+
+#citySlide .allText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #7a7a7a;
+}
+
 .slider__card {
     background: #ffffff;
     border-radius: 20px;

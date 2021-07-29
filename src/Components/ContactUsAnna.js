@@ -4,7 +4,7 @@ import './../css/contactUsAnna.css'
 
 const ContactUsAnna = () => {
     return (
-        <div style={{ paddingTop: '100px', overflow: 'hidden' }}>
+        <div style={{ marginTop: '300px', overflow: 'hidden' }}>
             <div id='contact-us-anna' style={{ backgroundImage: 'url("/images/bg_image.png")' }}>
                 <div className='container'>
                     <div className='row m-0'>

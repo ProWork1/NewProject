@@ -1,3 +1,39 @@
+#userSlider .swiper-button-next,
+#userSlider .swiper-button-prev {
+    width: 44px !important;
+    height: 44px !important;
+    top: 275px !important;
+}
+#userSlider .swiper-button-prev::after,
+#userSlider .swiper-button-next::after {
+    font-size: 22px !important;
+}
+
+#userSlider .swiper-button-next {
+    right: 0px !important;
+}
+
+#userSlider .swiper-button-prev {
+    left: 0px !important;
+}
+
+#userSlider {
+    padding-bottom: 300px !important;
+}
+
+#userSlider .userSliderTopic {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #52bfff;
+}
+
+#userSlider .mt {
+    margin-top: 150px !important;
+}
+
 #userSlider .usercard__title {
     color: #7a7a7a;
     font-size: 18px;

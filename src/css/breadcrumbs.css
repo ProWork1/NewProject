@@ -1,0 +1,18 @@
+#breadcrumbs .title {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 13px;
+    color: #d9d9d9;
+    margin-top: 7px !important;
+    margin-left: 11px !important;
+    margin-right: 11px !important;
+    text-decoration: none !important;
+}
+
+#breadcrumbs .title1 {
+    font-size: 14px !important;
+    line-height: 13px !important;
+    color: #7a7a7a !important;
+    margin-top: 7px !important;
+    text-decoration: none !important;
+}

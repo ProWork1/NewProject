@@ -13,11 +13,19 @@
     background-size: cover !important;
     position: relative;
     z-index: -1;
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 25.52%, rgba(255, 255, 255, 0) 44.27%, rgba(255, 255, 255, 0) 76.56%, #FFFFFF 100%),url('./images/map.png');
+    background: linear-gradient(
+            180deg,
+            #ffffff 0%,
+            rgba(255, 255, 255, 0) 25.52%,
+            rgba(255, 255, 255, 0) 44.27%,
+            rgba(255, 255, 255, 0) 76.56%,
+            #ffffff 100%
+        ),
+        url('./images/map.png');
     background-repeat: no-repeat;
-    height: 800px !important;
+    height: 810px !important;
     margin-bottom: 80px;
-    /* background-position: top center; */
+    background-position: center center;
 }
 .contact p {
     text-align: center;
@@ -27,18 +35,13 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 46px;
-    color: #52BFFF;
+    color: #52bfff;
     margin-top: 30px;
-}
-.contact p:nth-child(3) {
-    font-size: 18px;
-    line-height: 26px;
-    color: #7A7A7A;
 }
 .contact img:nth-child(4) {
     position: absolute;
     left: 45%;
-    top: 39%;
+    top: 34%;
 }
 .contact img:nth-child(5) {
     position: absolute;
@@ -50,31 +53,25 @@
     left: 87%;
     top: 67%;
 }
-.contact p:nth-child(7) {
-    color: white;
-    font-size: 18px;
-    line-height: 16px;
-    text-align: center;
-    position: absolute;
-    left: 46.4%;
-    top: 41%;
-}
-.contact p:nth-child(8) {
-    color: white;
-    font-size: 18px;
-    line-height: 16px;
-    text-align: center;
-    position: absolute;
-    left: 69.3%;
-    top: 57%;
-}
+.contact p:nth-child(7),
+.contact p:nth-child(8),
 .contact p:nth-child(9) {
     color: white;
     font-size: 18px;
     line-height: 16px;
     text-align: center;
     position: absolute;
-    left: 88.4%;
+}
+.contact p:nth-child(7) {
+    left: 46.1%;
+    top: 36%;
+}
+.contact p:nth-child(8) {
+    left: 69.1%;
+    top: 57%;
+}
+.contact p:nth-child(9) {
+    left: 88.1%;
     top: 69%;
 }
 .contact_card {
@@ -89,7 +86,7 @@
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
 }
 .card_border {
-    border: 1px dashed #E2EDF3 !important;
+    border: 1px dashed #e2edf3 !important;
     border-radius: 20px;
     padding: 15px !important;
 }
@@ -101,25 +98,25 @@
     width: 20px !important;
     height: 20px !important;
     border-radius: 50%;
-    background: #52BFFF;
+    background: #52bfff;
     padding: 2px;
 }
 .contact_cricle p {
     font-size: 12px;
     line-height: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-.contact_text p:nth-child(1){
+.contact_text p:nth-child(1) {
     text-align: left !important;
     font-size: 16px;
     line-height: 24px;
     color: #313131;
 }
-.contact_text p:nth-child(2){
+.contact_text p:nth-child(2) {
     margin-top: -15px !important;
     font-size: 10px !important;
     line-height: 22px !important;
-    color: #7A7A7A !important;
+    color: #7a7a7a !important;
 }
 .contact_box {
     width: 300px;
@@ -133,7 +130,7 @@
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
 }
 .box_border {
-    border: 1px dashed #E2EDF3 !important;
+    border: 1px dashed #e2edf3 !important;
     border-radius: 20px;
     padding: 25px !important;
 }
@@ -147,38 +144,46 @@
     text-align: left;
     margin-top: -5px;
 }
-.box_number p:nth-child(1){
+.box_number p:nth-child(1) {
     font-size: 16px;
     line-height: 24px;
     color: #313131;
 }
+.box_number p:nth-child(2),
+.contact p:nth-child(3) {
+    font-size: 14px;
+    line-height: 22px;
+    color: #7a7a7a;
+    font-weight: normal;
+}
 .box_number p:nth-child(2) {
     margin-top: -5px !important;
-    font-size: 10px;
-    line-height: 22px;
-    color: #7A7A7A;
 }
 .box_number p:nth-child(3) {
     margin-top: -8px !important;
-    font-size: 10px;
-    line-height: 22px;
-    color: #7A7A7A;
+}
+.box_phone {
+    margin-top: 15px !important;
+}
+.box_button {
+    margin-top: 7px !important;
 }
 .box_button {
     position: absolute;
-    background: linear-gradient(213.88deg, #B1E2FF -67.78%, #68C7FF 175.48%);
+    background: linear-gradient(213.88deg, #b1e2ff -67.78%, #68c7ff 175.48%) !important;
     border-radius: 60px;
     height: 40px;
     left: 50px;
     padding: 4px !important;
 }
 .button_cricle {
-    background: linear-gradient(322.12deg, #B1E2FF 1.25%, #68C7FF 89.56%);
+    background: linear-gradient(322.12deg, #b1e2ff 1.25%, #68c7ff 89.56%);
     border-radius: 25px;
     transform: matrix(1, 0, 0, 1, 0, 0);
-    width: 38px;
-    height: 38px;
+    width: 34px;
+    height: 34px;
     margin-right: 15px;
+    margin-left: -4px !important;
 }
 .button_cricle img {
     position: relative;
@@ -189,8 +194,8 @@
     font-size: 14px !important;
     line-height: 15px;
     text-align: center !important;
-    color: #FFFFFF !important;
-    margin-top: 10px !important;
+    color: #ffffff !important;
+    margin-top: 14px !important;
     margin-right: 15px;
 }
 @media screen and (max-width: 1400px) {
@@ -199,14 +204,22 @@
     }
     .contact_mobile {
         margin-top: 90px;
-        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 13.02%, rgba(255, 255, 255, 0) 47.4%, rgba(255, 255, 255, 0) 83.33%, #FFFFFF 100%), url('./images/mobilemap.png');
+        background: linear-gradient(
+                180deg,
+                #ffffff 0%,
+                rgba(255, 255, 255, 0) 13.02%,
+                rgba(255, 255, 255, 0) 47.4%,
+                rgba(255, 255, 255, 0) 83.33%,
+                #ffffff 100%
+            ),
+            url('./images/mobilemap.png');
         background-repeat: no-repeat;
         background-size: 100% !important;
         height: 580px;
         width: 100% !important;
         margin-bottom: 400px !important;
     }
-    .mobile_texts{
+    .mobile_texts {
         position: absolute;
         top: 120px;
         padding: 0 !important;
@@ -217,7 +230,7 @@
         font-weight: bold;
         font-size: 24px;
         line-height: 32px;
-        color: #52BFFF;
+        color: #52bfff;
         margin-bottom: 0px;
     }
     .mobile_texts p:nth-child(2) {
@@ -226,7 +239,7 @@
         line-height: 18px;
         letter-spacing: 1px;
         word-spacing: 2px;
-        color: #7A7A7A;
+        color: #7a7a7a;
     }
     .contact_mobile_box {
         border-radius: 20px;
@@ -236,7 +249,7 @@
         box-shadow: 0px 0px 40px rgba(119, 205, 255, 0.2);
     }
     .mobile_box_border {
-        border: 1px dashed #E2EDF3 !important;
+        border: 1px dashed #e2edf3 !important;
         border-radius: 20px;
         padding: 25px !important;
         width: 100%;
@@ -252,22 +265,23 @@
         text-align: left;
         margin-top: -5px;
     }
-    .mobile_box_number p:nth-child(1){
+    .mobile_box_number p:nth-child(1) {
         font-size: 16px;
         line-height: 24px;
         color: #313131;
     }
+    .mobile_box_number p:nth-child(2),
+    .mobile_box_number p:nth-child(3) {
+        line-height: 22px;
+        color: #7a7a7a;
+    }
     .mobile_box_number p:nth-child(2) {
         margin-top: -5px !important;
         font-size: 10px;
-        line-height: 22px;
-        color: #7A7A7A;
     }
     .mobile_box_number p:nth-child(3) {
         margin-top: -8px !important;
         font-size: 10px;
-        line-height: 22px;
-        color: #7A7A7A;
     }
     .location img {
         width: 32px;
@@ -284,11 +298,14 @@
         width: 32px;
         margin: 65px 0 0 260px;
     }
-    .location1 p {
+    .location1 p,
+    .location2 p {
         position: absolute;
         font-size: 14px;
         line-height: 16px;
         color: white !important;
+    }
+    .location1 p {
         margin: -30px 0 0 271px;
     }
     .location2 img {
@@ -296,14 +313,10 @@
         margin: -12px 0 0 118px;
     }
     .location2 p {
-        position: absolute;
-        font-size: 14px;
-        line-height: 16px;
-        color: white !important;
         margin: -30px 0 0 130px;
     }
     .mobile_box_button {
-        background: linear-gradient(213.88deg, #B1E2FF -67.78%, #68C7FF 175.48%);
+        background: linear-gradient(213.88deg, #b1e2ff -67.78%, #68c7ff 175.48%);
         border-radius: 60px;
         padding: 5px;
         width: 90%;
@@ -311,7 +324,7 @@
         margin-left: 5%;
     }
     .mobile_button_cricle {
-        background: linear-gradient(322.12deg, #B1E2FF 1.25%, #68C7FF 89.56%);
+        background: linear-gradient(322.12deg, #b1e2ff 1.25%, #68c7ff 89.56%);
         border-radius: 25px;
         transform: matrix(1, 0, 0, 1, 0, 0);
         width: 38px;
@@ -326,9 +339,8 @@
         font-size: 16px !important;
         line-height: 15px;
         text-align: center !important;
-        color: #FFFFFF !important;
+        color: #ffffff !important;
         margin-top: 10px !important;
         margin-left: 30px;
     }
 }
-

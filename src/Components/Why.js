@@ -1,44 +1,75 @@
 import React from 'react'
-import './../css/service.css'
+import { Col, Container, Row } from 'react-bootstrap'
+import './../css/why.css'
 
-const text = [
+const texts = [
     {
-        images: './images/image 61 1.png',
-        text: 'Поступление в зарубежные ВУЗы',
+        className: 'mx1',
+        image: '/images/121.png',
+        span: <>Сертифицированные услуги <br /></>,
+        text1: '',
+        text2: <>нашей профессиональной <br /> команды</>,
     },
     {
-        images: './images/image 60.png',
-        text: 'Оформление всех документов для поступления',
+        className: 'mx2',
+        image: '/images/image 26.png',
+        span: <>Высокие </>,
+        text1: '',
+        text2: <>визовые ставки <br /> (98% наших студентов <br /> получили визу)</>,
     },
     {
-        images: './images/image 26.png',
-        text: 'Помощь в оформлении и получении визы',
+        className: 'mx3',
+        image: '/images/image29.png',
+        span: <>престижных <br /></>,
+        text1: <>Учеба в </>,
+        text2: <>университетах, которые <br /> входят в Топ-1000</>,
     },
 ]
 
 const Why = () => {
     return (
         <div>
-            <div id='why'>
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-12 service_theme text-center'>
-                            <p>Услуги</p>
-                        </div>
-                    </div>
-                    <div className='row service_cards'>
-                        {text.map(({ images, text }) => (
-                            <div className='col-xl-4 col-lg-4 col-md-6 col-12'>
-                                <div className='service_card mb-5'>
-                                    <div className='service_border' key={images}>
-                                        <img src={images} alt='' />
-                                        <p>{text}</p>
+            <div id='why' className='position-relative'>
+                <div style={{ backgroundImage: 'url("/images/tree.png")', backgroundRepeat: 'no-repeat' }} className='position-absolute l-0 top-tree w-100 h-100' />
+                <Container>
+                    <Row className='text-center'>
+                        <Col>
+                            <div className={'allText'}>
+                                <span style={{ fontWeight: 'bold !important' }}>
+                                    Добро пожаловать {' '}
+                                </span>
+                                в нашу группу <br /> иностранного образования
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row className='text-center mt-3 mb-3'>
+                        <Col>
+                            <div className='whyTopic'>Почему мы?</div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        {texts.map(text => (
+                            <Col md={4} className={`mt ${text.className}`}>
+                                <div className='whyBorder1'>
+                                    <div className='whyBorder2 position-relative'>
+                                        <div className='whyImage d-block position-absolute'>
+                                            <div
+                                                className='mx-auto'
+                                                style={{ backgroundImage: `url('${text.image}')` }}
+                                            />
+                                        </div>
+                                        <div className='whyText text-center d-block allText'>
+                                            <div>
+                                                {text.text1}
+                                                <span>{text.span}</span> {text.text2}
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Col>
                         ))}
-                    </div>
-                </div>
+                    </Row>
+                </Container>
             </div>
         </div>
     )

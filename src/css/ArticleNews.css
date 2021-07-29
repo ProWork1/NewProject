@@ -1,0 +1,25 @@
+.artnew__info {
+    color: #7A7A7A;
+    line-height: 22px;
+}
+
+.artnew__icon {
+    color: #52BFFF;
+}
+.artnew__absolute{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.artnew__text{
+    color: #7A7A7A;
+    line-height: 22px;
+    text-align: justify;
+}
+/*media*/
+@media (max-width: 576px) {
+    .artnew__text{
+        font-size: 10px;
+        line-height: 14px;
+    }
+}

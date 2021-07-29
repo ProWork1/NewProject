@@ -1,12 +1,20 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import BreadcrumbsComponent from '../Components/BreadcrumbsComponent'
 import FooterTop from '../Components/FooterTop'
 import NewsComponent from '../Components/NewsComponent'
 import './../css/news.css'
 
 const NewsScreen = () => {
+    const breadcrumbs = {
+        title1: 'Новости',
+    }
+
     return (
         <div>
+            <div>
+                <BreadcrumbsComponent breadcrumbs={breadcrumbs} />
+            </div>
             <div className='col-12 news_theme'>
                 <p>Новости</p>
             </div>

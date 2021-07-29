@@ -1,54 +1,13 @@
-import React, { useRef, useState } from 'react'
+import React from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
 import './../css/students.css'
-
-// Import Swiper styles
-import 'swiper/swiper.min.css'
-import 'swiper/components/zoom/zoom.min.css'
-import 'swiper/components/navigation/navigation.min.css'
-import 'swiper/components/pagination/pagination.min.css'
 
 // import Swiper core and required modules
 import SwiperCore, { Zoom, Navigation, Pagination } from 'swiper/core'
 
 // install Swiper modules
 SwiperCore.use([Zoom, Navigation, Pagination])
-
-// const student = [
-//   {
-//     id: "1",
-//   },
-//   {
-//     id: "2",
-//   },
-//   {
-//     id: "3",
-//   },
-//   {
-//     id: "4",
-//   },
-//   {
-//     id: "5",
-//   },
-//   {
-//     id: "6",
-//   },
-//   {
-//     id: "7",
-//   },
-//   {
-//     id: "8",
-//   },
-//   {
-//     id: "9",
-//   },
-//   {
-//     id: "10",
-//   },
-// ];
-
-// const students = 10
 
 export default function Students() {
     return (
@@ -78,7 +37,10 @@ export default function Students() {
                                         {[...new Array(3)].map(() => (
                                             <SwiperSlide>
                                                 <div className='swiper-zoom-container'>
-                                                    <img src='./images/student.png' className='w-100' />
+                                                    <img
+                                                        src='./images/student.png'
+                                                        className='w-100'
+                                                    />
                                                 </div>
                                             </SwiperSlide>
                                         ))}
