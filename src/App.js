@@ -1,8 +1,8 @@
-import { Route, Switch } from 'react-router-dom'
-import Footer from './Components/Footer'
-import './App.css'
-import { Routes } from './routes/Routes'
-import Sidebar from './Components/Sidebar'
+import { Route, Switch } from 'react-router-dom';
+import Footer from './Components/Footer';
+import './App.css';
+import { ROUTES } from './Routes/Routes';
+import Sidebar from './Components/Sidebar';
 
 function App() {
     return (
@@ -11,7 +11,7 @@ function App() {
                 <Sidebar />
             </div>
             <Switch>
-                {Routes.map((route, index) => {
+                {ROUTES.map((route, index) => {
                     return (
                         <Route
                             exact={route.exact}

@@ -2,7 +2,6 @@ import React from 'react'
 import MainPageScreen from '../Screens/MainPageScreen'
 import AboutUsScreen from '../Screens/AboutUsScreen'
 import ServiceScreen from '../Screens/ServiceScreen'
-import University from '../Screens/UniversityScreen'
 import StudentsScreen from '../Screens/StudentsScreen'
 import NewsScreen from '../Screens/NewsScreen'
 import ContactScreen from '../Screens/ContactScreen'
@@ -10,8 +9,9 @@ import Unknown from '../Screens/Unknown'
 import ApplicationScreen from '../Screens/ApplicationScreen'
 import UniversityNameScreen from './../Screens/UniversityNameScreen'
 import ArticleScreen from '../Screens/ArticleScreen'
+import Consultation from '../Components/Consultation';
 
-export const Routes = [
+export const ROUTES = [
     {
         url: '/',
         component: () => <MainPageScreen />,
@@ -23,13 +23,13 @@ export const Routes = [
         exact: true,
     },
     {
-        url: '/service',
-        component: () => <ServiceScreen />,
+        url: '/Consultation',
+        component: () => <Consultation />,
         exact: true,
     },
     {
-        url: '/university',
-        component: () => <University />,
+        url: '/service',
+        component: () => <ServiceScreen />,
         exact: true,
     },
     {
