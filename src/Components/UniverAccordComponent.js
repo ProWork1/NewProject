@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Card, Accordion, Button, Col, Row } from 'react-bootstrap'
 import '../css/Accordion.css'
 import '../css/UniverAccord.css'
-import AccordionComponent from './AccordionComponent'
 
 const UniverAccordComponent = () => {
     const [plusMinus, setPlusMinus] = useState(true)

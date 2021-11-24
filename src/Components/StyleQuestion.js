@@ -99,7 +99,9 @@ const StyleQuestion = () => {
                                                         />
                                                     </svg>
                                                 </i>
-                                                <span className='edu_landing_button'>Связаться с нами</span>
+                                                <span className='edu_landing_button'>
+                                                    Связаться с нами
+                                                </span>
                                             </div>
                                         </button>
                                     </div>

@@ -1,6 +1,11 @@
 mr-0.accordion {
     position: relative;
 }
+
+.l-300 {
+    left: 300px !important;
+}
+
 .accordion__header {
     background: #fff !important;
     border-bottom: none !important;
@@ -67,5 +72,26 @@ mr-0.accordion {
     .accordion__body {
         font-size: 12px;
         line-height: 14px;
+    }
+    .l-300 {
+        left: 0px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .l-300 {
+        left: 130px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .l-300 {
+        left: 1px !important;
+    }
+}
+
+@media (max-width: 1399px) {
+    .l-300 {
+        left: 115px !important;
     }
 }

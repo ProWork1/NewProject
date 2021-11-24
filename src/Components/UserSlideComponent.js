@@ -1,9 +1,6 @@
-import React, { useRef, useState } from 'react'
+import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Card } from 'react-bootstrap'
-import 'swiper/swiper.min.css'
-import 'swiper/components/navigation/navigation.min.css'
-import 'swiper/components/pagination/pagination.min.css'
+import { Card, Col, Row } from 'react-bootstrap'
 import '../css/userSlider.css'
 import SwiperCore, { Navigation, Pagination } from 'swiper'
 
@@ -12,6 +9,11 @@ SwiperCore.use([Navigation, Pagination])
 const UserSlideComponent = () => {
     return (
         <div id='userSlider'>
+            <Row className='text-center mt-3 mb-3 mt'>
+                <Col>
+                    <div className='userSliderTopic'>Отзывы наших студентов</div>
+                </Col>
+            </Row>
             <div className='slider__relative position-relative mt-5 '>
                 <Swiper
                     navigation={true}

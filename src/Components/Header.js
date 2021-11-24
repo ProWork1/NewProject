@@ -2,9 +2,6 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import './../css/header.css'
 
-import 'swiper/swiper.min.css'
-import 'swiper/components/pagination/pagination.min.css'
-
 import SwiperCore, { Pagination } from 'swiper/core'
 
 SwiperCore.use([Pagination])

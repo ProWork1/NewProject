@@ -5,10 +5,20 @@ import FooterTop from './../Components/FooterTop'
 import AboutUniversity from './../Components/AboutUniversity'
 import UniversityName from './../Components/UniversityName'
 import { Container } from 'react-bootstrap'
+import BreadcrumbsComponent from '../Components/BreadcrumbsComponent'
 
 const UniversityNameScreen = () => {
+    const breadcrumbs = {
+        title1: 'Университеты',
+        link1: '/university',
+        title2: 'Название университета'
+    }
+
     return (
         <div>
+            <div>
+                <BreadcrumbsComponent breadcrumbs={breadcrumbs} />
+            </div>
             <div>
                 <UniversityName />
             </div>

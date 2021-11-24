@@ -1,11 +1,8 @@
-import React, { useRef, useState } from 'react'
+import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Card, Container } from 'react-bootstrap'
-import 'swiper/swiper.min.css'
-import 'swiper/components/navigation/navigation.min.css'
-import 'swiper/components/pagination/pagination.min.css'
-import '../css/CitySlide.css'
+import { Card, Col, Container, Row } from 'react-bootstrap'
 import SwiperCore, { Navigation, Pagination } from 'swiper'
+import '../css/CitySlide.css'
 
 SwiperCore.use([Navigation, Pagination])
 
@@ -13,6 +10,23 @@ const CitySlideComponent = () => {
     return (
         <div id='citySlide'>
             <Container>
+                <Row className='text-center mt-3 mb-3 mt'>
+                    <Col>
+                        <div className='citySlideTopic'>Университеты</div>
+                    </Col>
+                </Row>
+                <Row className='text-center mb-4'>
+                    <Col>
+                        <div className={'allText'}>
+                            В нашем каталоге вы найдете более
+                            <span>
+                                100
+                                <br /> университетов{' '}
+                            </span>{' '}
+                            из более чем <span>14 стран</span>
+                        </div>
+                    </Col>
+                </Row>
                 <div className='slider__relative'>
                     <Swiper
                         navigation={true}
@@ -36,7 +50,7 @@ const CitySlideComponent = () => {
                             },
                         }}
                     >
-                        {[...new Array(10)].map((item, index) => (
+                        {[...new Array(10)].map(index => (
                             <SwiperSlide key={index}>
                                 <Card className='border-0 slider__card'>
                                     <Card.Body>

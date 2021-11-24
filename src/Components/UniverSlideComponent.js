@@ -1,9 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/swiper.min.css'
 import '../css/UniverSlide.css'
-import 'swiper/components/navigation/navigation.min.css'
-import 'swiper/components/pagination/pagination.min.css'
 import '../css/CitySlide.css'
 import SwiperCore, { Navigation, Pagination } from 'swiper'
 

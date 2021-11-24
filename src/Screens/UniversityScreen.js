@@ -1,12 +1,20 @@
 import React from 'react'
+import BreadcrumbsComponent from '../Components/BreadcrumbsComponent'
 import FooterTop from './../Components/FooterTop'
-import University from './../Components/University'
+import Univ from './../Components/Univ'
 
 const UniversityScreen = () => {
+    const breadcrumbs = {
+        title1: 'Университеты',
+    }
+
     return (
         <div>
             <div>
-                <University />
+                <BreadcrumbsComponent breadcrumbs={breadcrumbs} />
+            </div>
+            <div>
+                <Univ />
             </div>
             <div>
                 <FooterTop />
